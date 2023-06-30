@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nome do Aluno - Portfólio</title>
+    <link rel="stylesheet" href="portfoli.css">
+</head>
+
+<body>
+    <header>
+        <h1>Nome do Aluno</h1>
+        <h2>Portfólio</h2>
+        <p>Bem-vindo ao meu portfólio pessoal!</p>
+
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>  
+    <main>
+        <section id="inicio">
+            <h2>Início</h2>
+            <p>Olá! Meu nome é [Nome do Aluno] e sou um web designer apaixonado por criar experiências visuais incríveis.</p>
+        </section>
+
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <article>
+                <h3>Projeto 1</h3>
+                <img src="caminho-da-imagem-projeto1.jpg" alt="Projeto 1">
+                <p>Descrição do projeto 1.</p>
+                <a href="projeto1.html">Saiba mais</a>
+            </article>
+            <article>
+                <h3>Projeto 2</h3>
+                <img src="caminho-da-imagem-projeto2.jpg" alt="Projeto 2">
+                <p>Descrição do projeto 2.</p>
+                <a href="projeto2.html">Saiba mais</a>
+            </article>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <img src="caminho-da-foto.jpg" alt="Foto do Aluno">
+            <p>Formado em WebDesigner Front-End pela Escola SENAI 7.91 - Botucatu, tenho ampla experiência em criação de websites
+                com conteúdo, estilização e funcionalidads.</p>
+            <p>Minhas principais habilidades incluem HTML, CSS e JavaScript, além de Edição de Imagem utilizando o Canvas.</p>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form id="form-contato"  onsubmit="return bolo()" action="agradecimento.html">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" >
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" >
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" ></textarea>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Nome do Aluno. Todos os direitos reservados.</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/">Instagram</a></li>
+            <li><a href="https://www.twitter.com/">Twitter</a></li>
+        </ul>
+    </footer>
+   
+    <script src="portfolio.js">
+       
+    </script>
+</body>
+
+</html>

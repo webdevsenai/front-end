@@ -1,0 +1,99 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+ 
+  /* Estilos do cabeçalho */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+ 
+  h1, h2 {
+    margin: 0;
+  }
+ 
+  /* Estilos da navegação */
+  nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+ 
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+ 
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+ 
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+    transition: color 0.3s ease;
+  }
+
+  nav ul li a:hover {
+    color: #ff0000;
+}
+ 
+  /* Estilos do conteúdo principal */
+  main {
+    padding: 20px;
+  }
+ 
+  section {
+    margin-bottom: 40px;
+    padding: 20px;
+  }
+ 
+  h2 {
+    color: #333;
+  }
+ 
+  article {
+    margin-bottom: 20px;
+  }
+ 
+  article h3 {
+    margin: 0;
+  }
+ 
+  article img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+ 
+  /* Estilos do rodapé */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+ 
+  footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+ 
+  footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+ 
+  footer ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
